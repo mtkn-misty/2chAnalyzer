@@ -6,7 +6,7 @@
         Scala2chAnalyzerWithMongo
     </groupId>
     <artifactId>
-        Scala2chAnalyzerWithMongo
+        Scala2chAnalyzerWithMongo 
     </artifactId>
     <version>
         0.0.1-SNAPSHOT
