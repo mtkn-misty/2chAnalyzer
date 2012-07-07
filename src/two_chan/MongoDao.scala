@@ -12,9 +12,7 @@ class MongoDao {
   /**
    * Mongodbの初期化
    */
-  //val opt = new MongoOptions()
-  //val con = MongoConnection("localhost", opt)
-  //val con = MongoConnection("localhost")
-  val con = MongoConnection("192.168.11.200:27017")
+  
+  val con = MongoConnection("localhost:27017")
   val db = con("2chData")
 }
