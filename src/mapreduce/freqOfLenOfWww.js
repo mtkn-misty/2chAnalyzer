@@ -13,11 +13,10 @@ var reduce = function(key, values){
 }
 
 db.outputs.drop();
-//db.vipthread.mapReduce(map, reduce, {
-db.thread01.mapReduce(map, reduce, {
+db.vipthread.mapReduce(map, reduce, {
     	'out': 'outputs'
 });
 
-// # mongo 198.11.200/2chData freqOfLenOfWww.js 
+// # mongo localhost/2chData freqOfLenOfWww.js 
 
 
